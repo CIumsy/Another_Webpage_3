@@ -1,0 +1,93 @@
+body {
+	background-color: #7f7f7f;
+}
+
+.navbar {
+	display: grid;
+	grid-template-columns: 8rem 13rem 8rem 8rem 8rem 8rem 8rem 20rem;
+	font-family: sans-serif;
+	column-gap: 1%;
+	padding-top: 0.7rem;
+}
+
+.navbar button {
+	width: 6.2rem;
+	height: 2.5rem;
+	background-color: #ff6a00;
+	border: none;
+	border-bottom-right-radius: 0.35rem;
+	color: whitesmoke;
+	font-size: 0.95rem;
+	transition: color 500ms;
+	
+}
+
+.navbar button:hover 
+{
+	color: black;
+	cursor: pointer;
+}
+
+
+.praroz {
+	font-size: 2rem;
+	font-weight: bold;
+	grid-column-start: 1.5;
+	color: #ff6a00;
+	grid-column-start: 2;
+
+}
+
+.navhead {
+	font-size: 0.92rem;
+	font-weight: bold;
+	color: whitesmoke;
+	padding-top: 0.65rem;
+	transition: color 500ms;
+}
+
+.navhead:hover 
+{
+	color: #ff6a00;
+	cursor: pointer;
+}
+
+
+.search input
+{
+	width: 10rem;
+	height: 2.2rem;
+	border: solid #ff6a00 0.09rem;
+	background-color: transparent;
+	border-top-left-radius: 0.32rem;
+	border-bottom-left-radius: 0.32rem;
+	padding-left: 1rem;
+	outline: none;
+	caret-color: white;
+}
+
+::placeholder {
+	color: whitesmoke;
+ 	font-size: 1rem;
+ 	font-weight: 500;
+}
+
+.sb {
+	float: left;
+}
+
+.content 
+{
+	display: grid;
+	grid-template-columns: 40% 30% 30%;
+}
+
+.content div 
+{
+	font-size: 100px;
+}
+
+.context 
+{
+	grid-column-start: 2;
+}
